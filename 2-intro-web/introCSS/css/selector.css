@@ -1,0 +1,33 @@
+div ul{
+    border: rgb(255, 0, 43) 3px solid;
+    margin: 10px;
+    padding: 20px;
+    }
+    div li p{
+        color:red;
+    
+    }
+    /* Selector hijo E > f - Selecciona solo los párrafos dentro del div, fuera de la lista */
+    
+    div > p{
+        color:rgb(115, 255, 0)
+        
+        }
+    
+    
+    /* Selector hermano E~F */
+    div ~ p{
+    color:rgb(169, 192, 18)
+    
+    }
+    
+    /* Selector consecutivo E+F -Afecta al elemento que sigue al hermano, pero no al resto  */
+    div + p{
+        color: blue
+    }
+    
+
+    p[unico]{
+
+        color: rgb(0, 217, 255);
+    }

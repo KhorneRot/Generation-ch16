@@ -9,23 +9,75 @@
       * {
         font-size: 1rem;
       }
-
+      /* selectores de atributo que afectan a un parrafo */
       p.aviso {
         color: blue;
       }
       div.nuevo {
-        color: #f00aaf;
+        color: #a2ce12;
       }
     </style>
-    <!-- <link rel="stylesheet" href="../introCSS/css/style.css" /> -->
+    <style>
+      *.univ {
+        color: rgb(18, 196, 12);
+      }
+    </style>
+
+    <link rel="stylesheet" href="../introCSS/css/style.css" />
+    <link rel="stylesheet" href="../introCSS/css/selector.css" />
+    <style>
+      p#alm1 {
+        color: aquamarine;
+      }
+    </style>
+
+    <style>
+      p#alm2 {
+        color: rgb(182, 124, 1);
+      }
+    </style>
   </head>
   <body>
+    <p>Esto es un parrafo 1</p>
+
+    <div>
+      <ul>
+        <li>
+          esto es una lista
+          <p>esto es otro parrafo interno</p>
+        </li>
+      </ul>
+      <p>Esto es otro parrafo 3</p>
+    </div>
+
     <h1>Esto es un ejemplo</h1>
-    <div class ="nuevo">
+    <div class="nuevo">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repudiandae
       similique sequi, maiores repellendus rerum nihil laborum nisi tempora
     </div>
-    <p class = "aviso">
+
+    <p class="univ">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+      eos consequatur cupiditate minima, molestiae ad tenetur similique eius et
+      laudantium minus inventore accusantium alias, hic asperiores veritatis
+      quibusdam, beatae odio!
+    </p>
+
+    <p id="alm1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nobis
+      error expedita autem, rerum, mollitia deleniti, delectus similique
+      excepturi commodi eum quas accusamus. In nihil officiis quae, dicta labore
+      alias.
+    </p>
+    <p id="alm2">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nobis
+      error expedita autem, rerum, mollitia deleniti, delectus similique
+      excepturi commodi eum quas accusamus. In nihil officiis quae, dicta labore
+      alias.
+    </p>
+    <!-- selector de clase tambien se le conoce como E.e -->
+
+    <p class="aviso">
       nulla doloribus id consequatur quibusdam quam placeat, voluptatum expedita
       dolorem non.
     </p>
