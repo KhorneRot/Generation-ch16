@@ -29,6 +29,8 @@ arreglo.push(false);
 let num = 500;
 arreglo.push(num);
 
+console.log(arreglo);
+
 // agrega un elemento al incio
 arreglo.unshift("A");
 arreglo.unshift("B");
